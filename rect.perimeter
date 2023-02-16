@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+    int a,b,p;
+    printf("Enter the length: ");
+    scanf("%d",&a);
+    printf("Enter the breadth: ");
+    scanf("%d",&b);
+    p=2*(a+b);
+    printf("%d\n",p);
+    
+    return 0;
+}
